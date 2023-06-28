@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <header>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+        content="width=device-width, user-scalable, initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="style.css">
+        <title>Foooorm</title>
+
+
+    </header>
+
+    <body>
+        <form class="feedback" action="addmessage.php" method="POST">
+            <div>
+                      
+                <div >
+                    <label>
+                       <p>
+                             ФИО
+                       </p>
+                       <input type="text" id="name" name="name" placeholder="Фамилия Имя Отчество">
+                        
+                    </label>
+                </div>
+
+
+                <div>
+                    <label >
+                      <p >
+                            Email
+                        </p>
+                        <input type="email" id="email" name="email" placeholder="mail@mail.ru">
+                       
+                    </label>
+                </div>
+
+                <div>
+                    <label >
+                      <p >
+                            Номер телефона
+                        </p>
+                        <input type="text" id="phone" name="phone" placeholder="+7 999 999-99-99">
+                      
+                    </label>
+                </div>
+
+
+                <div >
+                    <label >
+                      <p >
+                          Комментарий
+                      </p>
+                        <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Text"></textarea>
+                        
+                    </label>
+                </div>
+        <button class="send">Отправить</button>
+        </form>
+    </body>
+
+</html>
